@@ -5,7 +5,7 @@ import queue
 import sys
 import json
 
-MODEL_PATH = "C:/Users/90553/Downloads/vosk/vosk-model-small-en-us-0.15" #put your path in here
+MODEL_PATH = "C:/Users/90553/Downloads/vosk/vosk-model-small-de-0.15" #put your path in here
 model = vosk.Model(MODEL_PATH)
 
 q = queue.Queue()
